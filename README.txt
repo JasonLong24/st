@@ -4,6 +4,7 @@ Patches:
 
 - kscroll (with keyboard and mouse)
 - hidecursor
+- boxdraw
 
 Clone:
 
