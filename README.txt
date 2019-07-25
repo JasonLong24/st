@@ -5,6 +5,7 @@ Patches:
 - kscroll (with keyboard and mouse)
 - hidecursor
 - boxdraw
+- visual bell
 
 Clone:
 
