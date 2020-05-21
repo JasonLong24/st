@@ -5,7 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
+
+// My old font if Fantasque isn't installed
+// static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
+
+static char *font = "Fantasque Sans Mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
