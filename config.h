@@ -6,10 +6,10 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-// My old font if Fantasque isn't installed
-// static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
+/* TODO: add font backup support in case BigBlue Terminal doesn't exist */
+static char *font      = "BigBlue Terminal 437TT:style=regular:pixelsize=13";
+static char *font_back = "monospace:style=regular:pixelsize=13";
 
-static char *font = "Inconsolata Nerd Font:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -70,7 +70,7 @@ const int boxdraw_braille = 1;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 100;
 
 /*
  * visual-bell timeout (set to 0 to disable visual-bell).
