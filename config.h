@@ -9,7 +9,7 @@
 // My old font if Fantasque isn't installed
 // static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 
-static char *font = "Fantasque Sans Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Inconsolata Nerd Font:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
