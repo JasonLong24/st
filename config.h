@@ -7,7 +7,7 @@
  */
 
 /* TODO: add font backup support in case BigBlue Terminal doesn't exist */
-static char *font      = "BigBlue Terminal 437TT:style=regular:pixelsize=13";
+static char *font      = "BigBlue TerminalPlus:style=regular:pixelsize=13";
 static char *font_back = "monospace:style=regular:pixelsize=13";
 
 static int borderpx = 2;
@@ -73,9 +73,9 @@ const int boxdraw_braille = 1;
 static int bellvolume = 100;
 
 /*
- * visual-bell timeout (set to 0 to disable visual-bell).
+ * visual-bell timeout (set to 0 to disable visual-bell). Default 30
  */
-static int vbelltimeout = 30;
+static int vbelltimeout = 0;
 
 /*
  * visual bell mode when enabled:
@@ -163,7 +163,7 @@ static unsigned int rows = 24;
 /*
  * Default colour and shape of the mouse cursor
  */
-static unsigned int mouseshape = XC_xterm;
+static unsigned int mouseshape = XC_trek;
 static unsigned int mousefg = 13;
 static unsigned int mousebg = 0;
 
