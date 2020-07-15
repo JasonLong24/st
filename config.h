@@ -7,7 +7,7 @@
  */
 
 /* TODO: add font backup support in case BigBlue Terminal doesn't exist */
-static char *font      = "BigBlue TerminalPlus:style=regular:pixelsize=13";
+static char *font      = "BigBlue_Terminal_437TT Nerd Font:style=regular:pixelsize=13";
 static char *font_back = "monospace:style=regular:pixelsize=13";
 
 static int borderpx = 2;
